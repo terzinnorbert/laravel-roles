@@ -1,8 +1,8 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\App\Services;
+namespace terzinnorbert\LaravelRoles\App\Services;
 
-use jeremykenedy\LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
+use terzinnorbert\LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
 
 class RoleFormFields
 {

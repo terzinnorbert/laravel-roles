@@ -1,6 +1,6 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Traits;
+namespace terzinnorbert\LaravelRoles\Traits;
 
 trait DatabaseTraits
 {

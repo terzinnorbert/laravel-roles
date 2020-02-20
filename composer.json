@@ -1,5 +1,5 @@
 {
-    "name": "jeremykenedy/laravel-roles",
+    "name": "terzinnorbert/laravel-roles",
     "description": "Powerful package for handling roles, permissions, and levels in Laravel. Supports Laravel 5.3 and higher",
     "keywords": [
         "laravel-roles",
@@ -20,7 +20,7 @@
         },
         {
             "name": "Jeremy Kenedy",
-            "email": "jeremykenedy@gmail.com"
+            "email": "terzinnorbert@gmail.com"
         }
     ],
     "require": {
@@ -37,18 +37,18 @@
     },
     "autoload": {
         "psr-4": {
-            "jeremykenedy\\LaravelRoles\\": "src/"
+            "terzinnorbert\\LaravelRoles\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "jeremykenedy\\LaravelRoles\\Test\\": "tests/"
+            "terzinnorbert\\LaravelRoles\\Test\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "jeremykenedy\\LaravelRoles\\RolesServiceProvider"
+                "terzinnorbert\\LaravelRoles\\RolesServiceProvider"
             ]
         }
     },

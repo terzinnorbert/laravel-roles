@@ -1,15 +1,15 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles;
+namespace terzinnorbert\LaravelRoles;
 
 use Illuminate\Support\ServiceProvider;
-use jeremykenedy\LaravelRoles\App\Http\Middleware\VerifyLevel;
-use jeremykenedy\LaravelRoles\App\Http\Middleware\VerifyPermission;
-use jeremykenedy\LaravelRoles\App\Http\Middleware\VerifyRole;
-use jeremykenedy\LaravelRoles\Database\Seeds\DefaultConnectRelationshipsSeeder;
-use jeremykenedy\LaravelRoles\Database\Seeds\DefaultPermissionsTableSeeder;
-use jeremykenedy\LaravelRoles\Database\Seeds\DefaultRolesTableSeeder;
-use jeremykenedy\LaravelRoles\Database\Seeds\DefaultUsersTableSeeder;
+use terzinnorbert\LaravelRoles\App\Http\Middleware\VerifyLevel;
+use terzinnorbert\LaravelRoles\App\Http\Middleware\VerifyPermission;
+use terzinnorbert\LaravelRoles\App\Http\Middleware\VerifyRole;
+use terzinnorbert\LaravelRoles\Database\Seeds\DefaultConnectRelationshipsSeeder;
+use terzinnorbert\LaravelRoles\Database\Seeds\DefaultPermissionsTableSeeder;
+use terzinnorbert\LaravelRoles\Database\Seeds\DefaultRolesTableSeeder;
+use terzinnorbert\LaravelRoles\Database\Seeds\DefaultUsersTableSeeder;
 
 class RolesServiceProvider extends ServiceProvider
 {

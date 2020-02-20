@@ -1,11 +1,11 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\App\Http\Controllers;
+namespace terzinnorbert\LaravelRoles\App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use jeremykenedy\LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
-use jeremykenedy\LaravelRoles\Traits\RolesUsageAuthTrait;
+use terzinnorbert\LaravelRoles\Traits\RolesAndPermissionsHelpersTrait;
+use terzinnorbert\LaravelRoles\Traits\RolesUsageAuthTrait;
 
 class LaravelRolesDeletedController extends Controller
 {

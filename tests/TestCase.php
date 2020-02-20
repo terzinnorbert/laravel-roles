@@ -1,8 +1,8 @@
 <?php
 
-namespace jeremykenedy\LaravelRoles\Test;
+namespace terzinnorbert\LaravelRoles\Test;
 
-use jeremykenedy\LaravelRoles\RolesServiceProvider;
+use terzinnorbert\LaravelRoles\RolesServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 class TestCase extends OrchestraTestCase
@@ -12,7 +12,7 @@ class TestCase extends OrchestraTestCase
      *
      * @param \Illuminate\Foundation\Application $app
      *
-     * @return jeremykenedy\LaravelRoles\RolesServiceProvider
+     * @return terzinnorbert\LaravelRoles\RolesServiceProvider
      */
     protected function getPackageProviders($app)
     {

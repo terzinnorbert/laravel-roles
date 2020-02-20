@@ -39,15 +39,15 @@ return [
     |--------------------------------------------------------------------------
     |
     | If you want, you can replace default models from this package by models
-    | you created. Have a look at `jeremykenedy\LaravelRoles\Models\Role` model and
-    | `jeremykenedy\LaravelRoles\Models\Permission` model.
+    | you created. Have a look at `terzinnorbert\LaravelRoles\Models\Role` model and
+    | `terzinnorbert\LaravelRoles\Models\Permission` model.
     |
     */
 
     'models' => [
-        'role'          => env('ROLES_DEFAULT_ROLE_MODEL', jeremykenedy\LaravelRoles\Models\Role::class),
-        'permission'    => env('ROLES_DEFAULT_PERMISSION_MODEL', jeremykenedy\LaravelRoles\Models\Permission::class),
-        'defaultUser'   => env('ROLES_DEFAULT_USER_MODEL', config('auth.providers.users.model')),
+        'role' => env('ROLES_DEFAULT_ROLE_MODEL', terzinnorbert\LaravelRoles\Models\Role::class),
+        'permission' => env('ROLES_DEFAULT_PERMISSION_MODEL', terzinnorbert\LaravelRoles\Models\Permission::class),
+        'defaultUser' => env('ROLES_DEFAULT_USER_MODEL', config('auth.providers.users.model')),
     ],
 
     /*
