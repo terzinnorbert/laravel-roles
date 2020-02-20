@@ -48,7 +48,6 @@ class DefaultPermissionsTableSeeder extends Seeder
          * Add Permission Items
          *
          */
-        echo "\e[32mSeeding:\e[0m DefaultPermissionitemsTableSeeder\r\n";
         foreach ($Permissionitems as $Permissionitem) {
             $newPermissionitem = config('roles.models.permission')::where('slug', '=', $Permissionitem['slug'])->first();
             if ($newPermissionitem === null) {
@@ -58,7 +57,6 @@ class DefaultPermissionsTableSeeder extends Seeder
                     'description'   => $Permissionitem['description'],
                     'model'         => $Permissionitem['model'],
                 ]);
-                echo "\e[32mSeeding:\e[0m DefaultPermissionitemsTableSeeder - Permission:".$Permissionitem['slug']."\r\n";
             }
         }
     }
